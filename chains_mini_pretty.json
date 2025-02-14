@@ -12440,13 +12440,13 @@
   "faucets": ["https://citrea.xyz/faucet"],
   "infoURL": "https://citrea.xyz"
 }, {
-  "name": "MeChain Testnet",
+  "name": "Moca Chain Testnet",
   "chainId": 5151,
-  "shortName": "ZKME",
+  "shortName": "MOCA",
   "networkId": 5151,
   "nativeCurrency": {
-    "name": "ZKME",
-    "symbol": "ZKME",
+    "name": "MOCA",
+    "symbol": "MOCA",
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.mechain.tech"],
@@ -14611,6 +14611,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "New Reality Blockchain",
+  "chainId": 8569,
+  "shortName": "newrl",
+  "networkId": 8569,
+  "nativeCurrency": {
+    "name": "NewReal",
+    "symbol": "NEWRL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://newreality.bond/"
+}, {
   "name": "Toki Network",
   "chainId": 8654,
   "shortName": "toki",
@@ -15079,16 +15092,16 @@
   "faucets": ["https://testnet.shidoscan.com/faucet"],
   "infoURL": "https://www.nexablock.io"
 }, {
-  "name": "Shido Mainnet Block",
+  "name": "Shido Network",
   "chainId": 9008,
   "shortName": "Shido",
   "networkId": 9008,
   "nativeCurrency": {
-    "name": "Shido Mainnet Token",
+    "name": "Shido",
     "symbol": "SHIDO",
     "decimals": 18
   },
-  "rpc": ["https://rpc-nodes.shidoscan.com", "wss://wss-nodes.shidoscan.com", "https://rpc-delta-nodes.shidoscan.com", "wss://wss-delta-nodes.shidoscan.com"],
+  "rpc": ["https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc", "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws", "https://evm.shidoscan.net", "wss://wss.shidoscan.net"],
   "faucets": [],
   "infoURL": "https://shido.io"
 }, {

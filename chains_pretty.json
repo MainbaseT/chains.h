@@ -20418,13 +20418,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "MeChain Testnet",
-  "chain": "MeChain",
+  "name": "Moca Chain Testnet",
+  "chain": "Moca Chain",
   "rpc": ["https://testnet-rpc.mechain.tech"],
   "faucets": ["https://faucet.mechain.tech"],
   "nativeCurrency": {
-    "name": "ZKME",
-    "symbol": "ZKME",
+    "name": "MOCA",
+    "symbol": "MOCA",
     "decimals": 18
   },
   "features": [{
@@ -20433,14 +20433,14 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://mechain.tech",
-  "shortName": "ZKME",
+  "shortName": "MOCA",
   "chainId": 5151,
   "networkId": 5151,
-  "icon": "mechain",
+  "icon": "moca",
   "explorers": [{
-    "name": "MeChain Scan",
+    "name": "Moca Chain Scan",
     "url": "https://testnet-scan.mechain.tech",
-    "icon": "mechain",
+    "icon": "moca",
     "standard": "EIP3091"
   }]
 }, {
@@ -23989,6 +23989,22 @@
   "networkId": 8545,
   "explorers": []
 }, {
+  "name": "New Reality Blockchain",
+  "chain": "NEWRL",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NewReal",
+    "symbol": "NEWRL",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://newreality.bond/",
+  "shortName": "newrl",
+  "chainId": 8569,
+  "networkId": 8569,
+  "status": "incubating"
+}, {
   "name": "Toki Network",
   "chain": "TOKI",
   "rpc": ["https://mainnet.buildwithtoki.com/v0/rpc"],
@@ -24728,12 +24744,12 @@
     "icon": "shidoChain"
   }]
 }, {
-  "name": "Shido Mainnet Block",
+  "name": "Shido Network",
   "chain": "Shido Mainnet",
-  "rpc": ["https://rpc-nodes.shidoscan.com", "wss://wss-nodes.shidoscan.com", "https://rpc-delta-nodes.shidoscan.com", "wss://wss-delta-nodes.shidoscan.com"],
+  "rpc": ["https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc", "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws", "https://evm.shidoscan.net", "wss://wss.shidoscan.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Shido Mainnet Token",
+    "name": "Shido",
     "symbol": "SHIDO",
     "decimals": 18
   },
@@ -24743,7 +24759,7 @@
   "networkId": 9008,
   "icon": "shidoChain",
   "explorers": [{
-    "name": "Shidoblock Mainnet Explorer",
+    "name": "Shidoscan",
     "url": "https://shidoscan.com",
     "standard": "none",
     "icon": "shidoChain"
